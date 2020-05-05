@@ -1,0 +1,38 @@
+.sidebar{
+  width: 30%;
+	float: left;
+}
+.sidebox-1{display: block;}
+.col3{
+  width:100%;
+}
+.col1, .col2 {
+  width:45%;
+  float:left;
+  margin-right:5%;
+}
+  .main-content{
+    width: 65%;
+  	float: left;
+  	margin-right: 5%;
+  }
+  .col3{
+    margin-right: 0%;
+  }
+  .clearfix:after { content: ""; display: table;clear: both; }
+
+
+/* 992px media change*/
+@media screen and (min-width:992px){
+
+.col1, .col2, .col3 {
+
+    float:left;
+    width:30%;
+    margin-right:5%;
+}
+
+.col3 {
+  margin-right: 0%;
+}
+}

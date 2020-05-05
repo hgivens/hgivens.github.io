@@ -1,0 +1,99 @@
+/* thins is for the nave bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #323;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+h1 {
+  font-size: 4.25em;
+}
+
+/*end of nav bar*/
+h2 {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 2.25em;
+  padding: 15px;
+  margin-bottom: 30px
+}
+
+p {
+  font-size: 1.5em;
+}
+
+header {
+  font-family: 'Berkshire Swash', cursive;
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 100px
+}
+
+.floatRight {
+  float: left;
+}
+
+img {
+  box-shadow: 3px 3px 6px #35442d;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.alyssa {
+  border: 8px dotted #35442d;
+  background-color: grey;
+  padding: 15px;
+  margin-bottom: 75px
+}
+
+.Mission {
+  clear: both;
+  padding: 25px;
+  margin-bottom: 75px
+}
+
+.Overview {
+  border: 8px dotted #35442d;
+  background-color: grey;
+  padding: 25px;
+  margin-bottom: 75px
+}
+
+footer {
+  text-align: center;
+  font-size: .75em;
+}
+
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+.gallery {
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav {
+  font-family: 'Berkshire Swash', cursive;
+  position: sticky;
+  top: 0px;
+}
