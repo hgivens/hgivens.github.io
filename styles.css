@@ -2,26 +2,64 @@
 footer {
   background-color: #043c37;
   color: white;
+  text-align: center;
+  font-size: .75em;
 }
-
+p{
+  font-size: 1.15em;
+  padding-bottom: 3%
+}
+img{
+  padding-top: 4.5%;
+  padding-bottom: 4.5%;
+   box-shadow: 3px 3px 6px #A97394;
+}
 h2 {
   text-decoration: underline;
   text-align: center;
   font-weight: bolder;
+  font-size: 4em;
+  padding-top: 2.5%;
+}
+h1 {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 4em;
+  padding-top: 2.5%;
+}
+h4{
+  padding-bottom: 2.5%;
+  padding-top: 2.5%
+}
+h3{
+  font-size: 3em;
 }
 /* mainly for index */
+.art{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
 .otherQ {
   background-color: #009688;
   text-align: center;
+   border: 8px dotted #654558;
 }
 .background{
 background-color: #009688;
+ border: 8px dotted #654558;
 }
 .Certification{
   background-color: #043c37;
   color: white;
+   border: 8px dotted #A97394;
 }
-
+.lang{
+  font-size: 3em;
+  text-align: center;
+  padding-top: 2%
+}
 
 /* projects page  */
 .cards{
@@ -33,5 +71,9 @@ background-color: #009688;
   padding-top: 150px;
   font-size: 4em;
   font-weight: bolder;
-
+}
+.cards{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: 8px dotted #654558;
 }
